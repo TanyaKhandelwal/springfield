@@ -1,0 +1,242 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+
+hr {
+  border: dotted #8f8f8f 6px;
+  background: #fff;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 5% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-toggler{
+  margin-right: 5%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* .slide{
+margin: 5% 0 0;
+} */
+
+.carousel-item{
+  height: 550px;
+
+}
+
+/* Buttons */
+
+.button {
+  margin: 3% 3% 2% 0;
+}
+
+/* Title Section */
+
+#title.container-fluid {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+     line-height: 0.5;
+    overflow: hidden;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+
+.prepared{
+  padding-top: 5%;
+  color: #000;
+}
+
+
+#olympiads{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.first {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.second{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.service-text{
+  margin: 0;
+  color: #fff;
+}
+.card{
+  position: relative;
+text-align: center;
+
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+
+
+}
+
+.card:hover{
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+.slide-right {
+  /* width:100%; */
+  overflow:hidden;
+  width: 100%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  animation: 5s slide-right;
+}
+
+.slide-left {
+  /* width:100%; */
+  overflow:hidden;
+  width: 100%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  animation: slide-left 5s;
+}
+
+/* Registering Section */
+
+#register {
+  padding: 100px;
+}
+
+
+.registering-column {
+  padding: 3% 2%;
+}
+
+
+#about{
+  color:#fff;
+}
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover{
+  color: #fff;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-40px);
+		-ms-transform:     translateY(-40px);
+		transform:         translateY(-40px)
+	}
+	60% {
+		-webkit-transform: translateY(-20px);
+		-ms-transform:     translateY(-20px);
+		transform:         translateY(-20px)
+	}
+}
+
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
